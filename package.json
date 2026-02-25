@@ -1,0 +1,28 @@
+{
+  "name": "persistence-microservice",
+  "version": "1.0.0",
+  "description": "Microservicio de persistencia con Prisma 7.4.1 y PostgreSQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push",
+    "seed": "tsx prisma/seed.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.4.1",
+    "@prisma/client": "7.4.1",
+    "@types/pg": "^8.16.0",
+    "dotenv": "^16.4.7",
+    "pg": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "prisma": "7.4.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
