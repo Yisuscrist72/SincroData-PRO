@@ -1,0 +1,262 @@
+[
+  {
+    "email": "admin@empresa.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.614Z"
+  },
+  {
+    "email": "meghan20@hotmail.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.629Z"
+  },
+  {
+    "email": "todd55@hotmail.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.640Z"
+  },
+  {
+    "email": "mindy88@hotmail.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.647Z"
+  },
+  {
+    "email": "pansy_hauck68@hotmail.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.655Z"
+  },
+  {
+    "email": "rene_kling5@yahoo.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.663Z"
+  },
+  {
+    "email": "tabitha_buckridge@gmail.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.670Z"
+  },
+  {
+    "email": "joey55@hotmail.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.679Z"
+  },
+  {
+    "email": "rosalia.abernathy@hotmail.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.687Z"
+  },
+  {
+    "email": "daryl_wunsch@yahoo.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.694Z"
+  },
+  {
+    "email": "roman.wolf@yahoo.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.702Z"
+  },
+  {
+    "email": "simone_harvey99@hotmail.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.709Z"
+  },
+  {
+    "email": "barbara59@hotmail.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.717Z"
+  },
+  {
+    "email": "dale.mayer32@hotmail.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.725Z"
+  },
+  {
+    "email": "miller.prohaska-schumm80@yahoo.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.731Z"
+  },
+  {
+    "email": "clifford47@yahoo.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.738Z"
+  },
+  {
+    "email": "tanya.murphy73@gmail.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.746Z"
+  },
+  {
+    "email": "alan.renner28@yahoo.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.753Z"
+  },
+  {
+    "email": "elaine32@yahoo.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.764Z"
+  },
+  {
+    "email": "ken.effertz@gmail.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.771Z"
+  },
+  {
+    "email": "raquel_cummings73@gmail.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.777Z"
+  },
+  {
+    "email": "britney_daugherty79@gmail.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.784Z"
+  },
+  {
+    "email": "hilda3@hotmail.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.790Z"
+  },
+  {
+    "email": "celia34@gmail.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.797Z"
+  },
+  {
+    "email": "elvira_williamson@gmail.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.804Z"
+  },
+  {
+    "email": "murl.walsh62@hotmail.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.811Z"
+  },
+  {
+    "email": "tiara_klein@yahoo.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.817Z"
+  },
+  {
+    "email": "maggie.jaskolski85@gmail.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.825Z"
+  },
+  {
+    "email": "reece97@hotmail.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.831Z"
+  },
+  {
+    "email": "alyssa17@yahoo.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.838Z"
+  },
+  {
+    "email": "maryam.gleichner65@gmail.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.844Z"
+  },
+  {
+    "email": "cassandra.nicolas23@yahoo.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.851Z"
+  },
+  {
+    "email": "tamara_lubowitz@gmail.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.857Z"
+  },
+  {
+    "email": "ara3@gmail.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.864Z"
+  },
+  {
+    "email": "dean_stiedemann22@gmail.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.870Z"
+  },
+  {
+    "email": "jacob.lakin@hotmail.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.877Z"
+  },
+  {
+    "email": "linnie.lesch92@hotmail.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.884Z"
+  },
+  {
+    "email": "lucas80@yahoo.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.891Z"
+  },
+  {
+    "email": "alonzo.rau@yahoo.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.899Z"
+  },
+  {
+    "email": "stuart74@gmail.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.906Z"
+  },
+  {
+    "email": "darrin65@gmail.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.912Z"
+  },
+  {
+    "email": "deangelo_maggio90@hotmail.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.919Z"
+  },
+  {
+    "email": "darian.gorczany@yahoo.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:42:38.925Z"
+  },
+  {
+    "email": "tracey_cremin@yahoo.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.932Z"
+  },
+  {
+    "email": "rachael.beatty@hotmail.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.939Z"
+  },
+  {
+    "email": "kristina0@yahoo.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.946Z"
+  },
+  {
+    "email": "jerry_stehr64@yahoo.com",
+    "role": "MANAGER",
+    "createdAt": "2026-02-26T08:42:38.952Z"
+  },
+  {
+    "email": "martha56@hotmail.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.959Z"
+  },
+  {
+    "email": "delores7@hotmail.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.966Z"
+  },
+  {
+    "email": "cora.roob64@yahoo.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:42:38.972Z"
+  },
+  {
+    "email": "import1@test.com",
+    "role": "USER",
+    "createdAt": "2026-02-26T08:57:28.580Z"
+  },
+  {
+    "email": "import2@test.com",
+    "role": "ADMIN",
+    "createdAt": "2026-02-26T08:57:28.580Z"
+  }
+]

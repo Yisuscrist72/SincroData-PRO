@@ -1,0 +1,18 @@
+
+╔═════════════════════════════════════════════════════════════╗
+  INFORME DE PROCESO: IMPORT_USER_
+  Fecha: 18/3/2026, 13:32:14
+╚═════════════════════════════════════════════════════════════╝
+
+RESUMEN DE OPERACIÓN:
+-----------------------------------------
+- Total registros procesados: 0
+- Importaciones exitosas:     0
+- Registros con fallos:       0
+
+LISTADO DETALLADO DE ERRORES:
+-----------------------------------------
+👉 [Fila/Índice: SISTEMA] Error de procesamiento crítico: Formato no soportado. Use .json, .csv o .xml
+
+-----------------------------------------
+Fin del informe detallado.

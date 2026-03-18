@@ -8,7 +8,8 @@
     "prisma:generate": "prisma generate",
     "prisma:push": "prisma db push",
     "seed": "tsx prisma/seed.ts",
-    "import-data": "tsx importData.ts"
+    "import-data": "tsx importData.ts",
+    "dashboard": "tsx src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -18,11 +19,15 @@
     "@prisma/client": "7.4.1",
     "@types/pg": "^8.16.0",
     "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
     "pg": "^8.18.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^10.3.0",
+    "@types/express": "^5.0.6",
     "@types/fs-extra": "^11.0.4",
+    "@types/multer": "^2.1.0",
     "@types/node": "^22.13.5",
     "@types/xml2js": "^0.4.14",
     "csv-parse": "^6.1.0",

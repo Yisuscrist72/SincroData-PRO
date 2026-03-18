@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SincroData PRO - Dashboard de Intercambio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="container fade-in">
+        <header>
+            <div class="logo">
+                <i class="fas fa-layer-group pulse"></i>
+                <h1>SincroData <span>PRO</span></h1>
+            </div>
+            <p>Herramienta Centralizada de Gestión e Intercambio de Datos Empresariales</p>
+        </header>
+
+        <div class="dashboard-grid">
+            <!-- Sección Importar -->
+            <section class="card import-card">
+                <div class="card-header">
+                    <i class="fas fa-file-import"></i>
+                    <h2>Importar Datos</h2>
+                </div>
+                <div class="card-body">
+                    <p>Subir datos CSV, JSON o XML al sistema con validaciones automáticas.</p>
+                    <div class="input-group">
+                        <label>Tipo de Entidad:</label>
+                        <select id="importModel">
+                            <option value="user">Usuarios</option>
+                            <option value="product">Productos</option>
+                        </select>
+                    </div>
+                    <div class="drop-zone" id="drop-zone">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p>Arrastra el archivo o clica aquí</p>
+                        <input type="file" id="file-input" hidden accept=".csv,.json,.xml">
+                        <span id="file-name" class="file-tag">Sin archivo seleccionado</span>
+                    </div>
+                    <button class="btn btn-primary" id="btn-import">
+                        <i class="fas fa-rocket"></i> Iniciar Importación
+                    </button>
+                </div>
+            </section>
+
+            <!-- Sección Exportar -->
+            <section class="card export-card">
+                <div class="card-header">
+                    <i class="fas fa-file-export"></i>
+                    <h2>Exportar Datos</h2>
+                </div>
+                <div class="card-body">
+                    <p>Generar archivos portátiles de la base de datos.</p>
+                    <div class="grid-2">
+                        <div class="input-group">
+                            <label>Colección:</label>
+                            <select id="exportModel">
+                                <option value="user">Usuarios</option>
+                                <option value="product">Productos</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label>Formato:</label>
+                            <select id="exportFormat">
+                                <option value="csv">CSV (Excel)</option>
+                                <option value="json">JSON</option>
+                                <option value="xml">XML</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="btn btn-secondary" id="btn-export">
+                        <i class="fas fa-download"></i> Descargar Exportable
+                    </button>
+                </div>
+            </section>
+
+            <!-- Sección Reportes Recientes -->
+            <section class="card reports-card full-width">
+                <div class="card-header">
+                    <i class="fas fa-receipt"></i>
+                    <h2>Reportes Generados</h2>
+                </div>
+                <div class="card-body">
+                    <div id="reports-list" class="reports-list">
+                        <!-- Generado por JS -->
+                        <div class="empty-state">No hay reportes disponibles.</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Modal de Informe -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <header>
+                <i class="fas fa-clipboard-check"></i>
+                <h3>Resultado del Proceso</h3>
+                <span id="close-modal" class="close">&times;</span>
+            </header>
+            <div id="modal-body" class="modal-body">
+                <!-- Mostramos resumen aquí -->
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" id="btn-close">Entendido</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
