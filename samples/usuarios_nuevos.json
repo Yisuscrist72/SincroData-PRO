@@ -1,0 +1,5 @@
+[
+  { "email": "elena.tech@gmail.com", "password": "passElena2026", "role": "USER" },
+  { "email": "director@empresa.es", "password": "adminSecure_88", "role": "ADMIN" },
+  { "email": "coordina@proyectos.net", "password": "manage_tasks_99", "role": "MANAGER" }
+]

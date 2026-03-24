@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <email>soporte.com</email> <password>abc</password> <role>GUEST</role> </user>
+  <user>
+    <email>ana.dev@web.com</email>
+    <password>Secret2026!</password>
+    <role>ADMIN</role>
+  </user>
+</users>

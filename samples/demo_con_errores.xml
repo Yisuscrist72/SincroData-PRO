@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <email>usuario-error.com</email> <!-- Email inválido (le falta @) -->
+    <password>123</password> <!-- Password corto (< 6) -->
+    <role>SUPER_ADMIN</role> <!-- Role inválido (Enums son ADMIN, USER, MANAGER) -->
+  </user>
+  <user>
+    <email>valido@test.com</email>
+    <password>Correcto123</password>
+    <role>USER</role>
+  </user>
+</users>
