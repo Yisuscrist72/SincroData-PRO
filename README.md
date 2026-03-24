@@ -27,9 +27,9 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 2.  **Configurar Variables de Entorno**:
     Crea un archivo `.env` en la raíz del proyecto (si no existe) con el siguiente contenido:
     ```env
-    DATABASE_URL="postgresql://admin:admin123@localhost:54322/empresa_db?schema=public"
+    DATABASE_URL="postgresql://admin:admin123@localhost:5444/empresa_db?schema=public"
     ```
-    *Nota: Utilizamos el puerto **54322** para evitar conflictos comunes con puertos reservados en Windows.*
+    *Nota: Utilizamos el puerto **5444** para evitar conflictos comunes con puertos reservados en Windows (como el 5432).*
 
 3.  **Levantar la Base de Datos**:
     ```bash
@@ -70,6 +70,18 @@ Se abrirá en: 👉 **[http://localhost:5555](http://localhost:5555)** (o el pue
 ## 🛡️ Seguridad y Tecnología
 
 Este proyecto utiliza **Prisma ORM** para una comunicación segura y tipada con la base de datos, eliminando el riesgo de inyección SQL y optimizando las consultas mediante inserciones masivas (`createMany`).
+
+## 💡 Solución de problemas comunes
+
+### Error P1000 (Authentication Failed)
+Si recibes un error de autenticación al ejecutar `npx prisma db push`, intenta lo siguiente:
+1.  Asegúrate de que no haya otro servicio usando el puerto (hemos movido el puerto a **5444** para evitar esto).
+2.  Si cambiaste la contraseña después de haber levantado el contenedor por primera vez, Docker no la actualizará automáticamente. Ejecuta:
+    ```bash
+    docker-compose down -v
+    docker-compose up -d
+    ```
+    *Advertencia: Esto borrará los datos actuales de la base de datos (pero los recuperarás al ejecutar el seed).*
 
 ---
 Desarrollado para el módulo de Acceso a Datos como herramienta de gestión de ficheros persistentes.
